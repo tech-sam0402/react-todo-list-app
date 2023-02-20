@@ -19,7 +19,7 @@ const AddTaskForm = ({ addTask }) => {
         onChange={(e) => setValue(e.target.value)}
       />
       <button data-testid="submit-btn" type="submit">
-        +
+        +Task
       </button>
     </form>
   );
